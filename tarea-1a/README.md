@@ -12,4 +12,4 @@ This is the code I wrote for the first phase in the first assignment at Universi
 
 This code is made available without its due context such as the report I wrote or the given task by our teacher, and is made available as a backup. It's written in PL/SQL and it's mean to be executed on an Oracle Autonomous Warehouse database.
 
-![Relational Model](Relational%20Model.svg)
+![Relational Model](../tarea-1a/Relational%20model.svg)
