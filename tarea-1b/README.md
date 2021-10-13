@@ -1,0 +1,4 @@
+# About this folder
+This code belongs to the second phase of the first assignment of Universidad Mayor's 2021-02 Business Intelligence course.
+
+I'm using `cx_Oracle` to connect to an Oracle Autonomous Data Warehouse hosted on Oracle Cloud's free tier. I've stored the user credentials in a `keys.json` file not included in this repository, and a wallet is required to access the database, which is not included either for security reasons, but should include all connection data under the `tarea1_high` variable at the `tnsnames.ora` file, which must be referenced by the `sqlnet.ora` file at the path defined at your system's `TNS_ADMIN` environment variable.
