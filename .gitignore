@@ -1,2 +1,5 @@
-
+.env
 tarea-1b/keys.json
+tarea-2/movie_titles.csv
+tarea-2/training_set.tar
+tarea-2/training_set/*
