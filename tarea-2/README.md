@@ -14,10 +14,14 @@ Si bien es posible ver el cuaderno Jupyter desde GitHub, se recomienda utilizar 
 Para echar a andar el cuaderno Jupyter con el código del sistema de recomendación, existen muchas maneras de hacerlo. Se sugieren las siguientes, pero existen más:
 
 - Local o remotamente:
-  - Usar el comando ``jupyter notebook`` en esta carpeta (Si no está instalado, primero usar el comando ``pip install notebook`` o ``conda install -c conda-forge notebook``).
-  - Usar el comando ``jupyter-lab`` en esta carpeta (Si no está instalado, primero usar el comando ``pip install jupyterlab`` o ``conda install -c conda-forge jupyterlab``).
+  - Tras clonar el repositorio, usar el comando ``jupyter notebook`` en esta carpeta (/tarea-2).
+    - *Si no está instalado, primero usar el comando ``pip install notebook`` o, como alternativa,  ``conda install -c conda-forge notebook``.*
+  - Tras clonar el repositorio, usar el comando ``jupyter-lab`` en esta carpeta  (/tarea-2).
+    - *Si no está instalado, primero usar el comando ``pip install jupyterlab`` o, como alternativa,  ``conda install -c conda-forge jupyterlab``.*
 - Remotamente:
   - Importando el cuaderno en Google Colab en [este enlace](https://colab.research.google.com/github/melipass/umayor-business-intelligence/blob/main/tarea-2/sistema-recomendacion.ipynb).
-  - Subiendo el cuaderno a IBM Watson Studio en IBM Cloud.
+  - Subiendo el cuaderno a [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio) en IBM Cloud.
 
-La manera en la que se ejecutará el cuaderno dependerá del usuario. Es importante indicar que se requerirán los archivos ``movie_titles.csv`` y los documentos que están dentro del archivo ``training_set.tar`` para que el código funcione, y es posible tener que modificar un par de líneas de código para indicar la carpeta donde estos están almacenados.
+La manera en la que se ejecutará el cuaderno dependerá del usuario. Es importante indicar que se requerirá cargar los archivos ``movie_titles.csv`` y los documentos que están dentro del archivo ``training_set.tar`` para que el código funcione, y es posible tener que modificar un par de líneas de código para indicar la carpeta donde estos están almacenados. 
+
+Todo el código fue realizado y probado con Python 3.9 y, en el probable caso de no tener instaladas todas las bibliotecas, se sugiere crear una celda de código dentro del cuaderno e instalarlas con ``!pip install <nombre-biblioteca>``.
