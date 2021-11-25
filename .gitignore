@@ -1,6 +1,7 @@
 .env
 tarea-1b/keys.json
 tarea-2/movie_titles.csv
-tarea-2/ratings_df.parquet
-tarea-2/training_set.tar
+tarea-2/*.parquet
+tarea-2/*.pickle
+tarea-2/*.tar
 tarea-2/training_set/*
