@@ -22,6 +22,6 @@ Para echar a andar el cuaderno Jupyter con el código del sistema de recomendaci
   - Importando el cuaderno en Google Colab en [este enlace](https://colab.research.google.com/github/melipass/umayor-business-intelligence/blob/main/tarea-2/sistema-recomendacion.ipynb).
   - Subiendo el cuaderno a [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio) en IBM Cloud.
 
-La manera en la que se ejecutará el cuaderno dependerá del usuario. Es importante indicar que se requerirá cargar los archivos ``movie_titles.csv`` y los documentos que están dentro del archivo ``training_set.tar`` para que el código funcione, y es posible tener que modificar un par de líneas de código para indicar la carpeta donde estos están almacenados. 
+La manera en la que se ejecutará el cuaderno dependerá del usuario. Es importante indicar que se requerirá cargar los archivos ``movie_titles.csv`` y los documentos que están dentro del archivo ``training_set.tar`` para que el código funcione, y es posible tener que modificar un par de líneas de código para indicar la carpeta donde estos están almacenados. Además, para usar la API de The Movie Database, se requiere de una llave que debe ser generada creando una cuenta en el sitio y generándola, almacenándola en un archivo ``.env`` bajo la variable de entorno ``API_KEY``.
 
 Todo el código fue realizado y probado con Python 3.9 y, en el probable caso de no tener instaladas todas las bibliotecas, se sugiere crear una celda de código dentro del cuaderno e instalarlas con ``!pip install <nombre-biblioteca>``.
