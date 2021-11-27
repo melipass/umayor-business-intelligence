@@ -7,7 +7,7 @@ Se sugiere abrir directamente el archivo ``sistema-recomendacion.ipynb``, ya que
 
 ## Visualización
 
-Si bien es posible ver el cuaderno Jupyter desde GitHub, se recomienda utilizar NBViewer para apreciar correctamente todas las tablas y el código en LaTeX, en [este enlace](https://nbviewer.org/github/melipass/umayor-business-intelligence/blob/main/tarea-2/sistema-recomendacion.ipynb).
+**⚠️ Importante ⚠️**: Si bien es posible ver el cuaderno Jupyter desde GitHub, se recomienda utilizar NBViewer para apreciar correctamente todas las tablas y el código en LaTeX, en [este enlace](https://nbviewer.org/github/melipass/umayor-business-intelligence/blob/main/tarea-2/sistema-recomendacion.ipynb).
 
 ## Ejecución
 
